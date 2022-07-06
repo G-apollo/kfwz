@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1024px;
+    min-width: 720px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfloat::after,
+.clearfloat::before {
+    content: "";
+    display: table;
+}
+
+.clearfloat::after {
+    clear: both;
+}
+
+
+/*  */
+
+#fwrs {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fcfcfc;
+    font-size: 26px;
+}
